@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_mainscreen_background.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/mainscreen_background.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_neutral_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/neutral_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_list_view_divider.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/list_view_divider.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_camera_output_background.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/camera_output_background.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout_activity_first_time.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout/activity_first_time.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_r_right_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/r_right_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout_activity_splash__screen.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout/activity_splash__screen.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout_list_layout.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout/list_layout.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/menu_menu_devicelist.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/menu/menu_devicelist.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_sit_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/sit_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_seekbar_thumb.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/seekbar_thumb.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_direction_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/direction_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_got_it_background.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/got_it_background.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_devices_background.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/devices_background.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_stand_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/stand_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout_activity_scobby__doo__remote.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout/activity_scobby__doo__remote.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_tilt_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/tilt_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_splash_screen.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/splash_screen.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_sit_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/sit_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_neutral_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/neutral_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/menu_menu_main.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_tilt_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/tilt_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout-sw600dp_activity_scobby__doo__remote.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout-sw600dp/activity_scobby__doo__remote.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_seekbar_progress.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/seekbar_progress.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout-sw600dp_activity_device_list.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout-sw600dp/activity_device_list.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_tilt_64.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/tilt_64.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_stand_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/stand_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_paw_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/paw_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout-sw600dp_activity_splash__screen.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout-sw600dp/activity_splash__screen.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_direction_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/direction_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout_activity_device_list.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout/activity_device_list.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_grey.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/grey.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_r_left_down_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/r_left_down_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout-sw600dp_activity_first_time.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout-sw600dp/activity_first_time.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_r_left_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/r_left_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_r_right_up_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/r_right_up_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_slider_48.png.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/slider_48.png"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/layout-sw600dp_list_layout.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/layout-sw600dp/list_layout.xml"
+    },
+    {
+        "merged": "com.example.hp.scobbydoooo.app-debug-4:/drawable_devices_background_tab.xml.flat",
+        "source": "com.example.hp.scobbydoooo.app-main-6:/drawable/devices_background_tab.xml"
+    }
+]

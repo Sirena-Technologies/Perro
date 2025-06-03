@@ -1,0 +1,12 @@
+com.example.hp.scobbydoooo.app-pngs-0 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/build/generated/res/pngs/debug
+com.example.hp.scobbydoooo.app-resValues-1 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/build/generated/res/resValues/debug
+com.example.hp.scobbydoooo.app-packageDebugResources-2 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.hp.scobbydoooo.app-packageDebugResources-3 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.hp.scobbydoooo.app-debug-4 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.hp.scobbydoooo.app-debug-5 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/src/debug/res
+com.example.hp.scobbydoooo.app-main-6 /Volumes/Office/AndroidApps/LatestBuilt/Perro/app/src/main/res
+com.example.hp.scobbydoooo.app-coordinatorlayout-28.0.0-7 /Volumes/Office/Backup/SirenaAndroidApp/SirenaChoralApp_v1/SourceCode/caches/8.9/transforms/2288e2e5edbf2ff92e0666f0d71b18cd/transformed/coordinatorlayout-28.0.0/res
+com.example.hp.scobbydoooo.app-support-compat-28.0.0-8 /Volumes/Office/Backup/SirenaAndroidApp/SirenaChoralApp_v1/SourceCode/caches/8.9/transforms/5fd024cfa32eb773556f2aabcdd7f3e2/transformed/support-compat-28.0.0/res
+com.example.hp.scobbydoooo.app-appcompat-v7-28.0.0-9 /Volumes/Office/Backup/SirenaAndroidApp/SirenaChoralApp_v1/SourceCode/caches/8.9/transforms/9206b00c5b7238da2dd2944fd50c3df9/transformed/appcompat-v7-28.0.0/res
+com.example.hp.scobbydoooo.app-support-media-compat-28.0.0-10 /Volumes/Office/Backup/SirenaAndroidApp/SirenaChoralApp_v1/SourceCode/caches/8.9/transforms/c05b4e471fc73d5facc67d27e5ac1bbd/transformed/support-media-compat-28.0.0/res
+com.example.hp.scobbydoooo.app-constraint-layout-2.0.4-11 /Volumes/Office/Backup/SirenaAndroidApp/SirenaChoralApp_v1/SourceCode/caches/8.9/transforms/e92fb60a0398a7655378254687a85cb6/transformed/constraint-layout-2.0.4/res

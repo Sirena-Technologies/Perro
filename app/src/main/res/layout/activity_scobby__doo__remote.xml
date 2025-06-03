@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_background"
+    tools:context="com.example.hp.scobbydoooo.Scobby_Doo_Remote"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/ib_dright"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f2f2f2"
+        android:rotation="90"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ib_dback"
+        app:layout_constraintStart_toEndOf="@+id/paw_image"
+        app:layout_constraintTop_toTopOf="@+id/ib_dfront"
+        app:srcCompat="@drawable/direction_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_dback"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#f2f2f2"
+        android:rotation="180"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/ib_dright"
+        app:layout_constraintStart_toStartOf="@+id/ib_dleft"
+        app:layout_constraintTop_toBottomOf="@+id/paw_image"
+        app:srcCompat="@drawable/direction_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_dfront"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/paw_image"
+        app:layout_constraintEnd_toEndOf="@+id/ib_dright"
+        app:layout_constraintStart_toStartOf="@+id/ib_dleft"
+        app:srcCompat="@drawable/direction_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_dleft"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="#f2f2f2"
+        android:rotation="270"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/paw_image"
+        app:layout_constraintEnd_toStartOf="@+id/paw_image"
+        app:layout_constraintTop_toTopOf="@+id/paw_image"
+        app:srcCompat="@drawable/direction_up_48" />
+
+    <ImageView
+        android:id="@+id/paw_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/gv_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gv_video"
+        app:layout_constraintTop_toTopOf="@+id/gv_video"
+        app:srcCompat="@drawable/paw_48" />
+
+    <ImageView
+        android:id="@+id/tilt_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/gv_video"
+        app:layout_constraintEnd_toStartOf="@+id/gv_video"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gv_video"
+        app:srcCompat="@drawable/tilt_64" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/camera_output_background"
+        android:text="Camera Output"
+        android:textAlignment="center"
+        android:textColor="#f2f2f2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.hp.scobbydoooo.GameView
+        android:id="@+id/gv_video"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/ib_neutral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/ib_tfront"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/tilt_image"
+        app:layout_constraintStart_toStartOf="@+id/tilt_image"
+        app:layout_constraintTop_toTopOf="@+id/tilt_image"
+        app:srcCompat="@drawable/tilt_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_tleft"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/tilt_image"
+        app:layout_constraintStart_toStartOf="@+id/tilt_image"
+        app:layout_constraintTop_toTopOf="@+id/tilt_image"
+        app:srcCompat="@drawable/tilt_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_tback"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/tilt_image"
+        app:layout_constraintEnd_toEndOf="@+id/tilt_image"
+        app:layout_constraintStart_toStartOf="@+id/tilt_image"
+        app:srcCompat="@drawable/tilt_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_tright"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/tilt_image"
+        app:layout_constraintEnd_toEndOf="@+id/tilt_image"
+        app:layout_constraintTop_toTopOf="@+id/tilt_image"
+        app:srcCompat="@drawable/tilt_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_neutral"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/neutral_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_sit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/ib_neutral"
+        app:layout_constraintStart_toStartOf="@+id/gv_video"
+        app:srcCompat="@drawable/sit_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_stand"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/gv_video"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/ib_neutral"
+        app:srcCompat="@drawable/stand_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_rleft"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ib_sit"
+        app:layout_constraintStart_toEndOf="@+id/ib_tback"
+        app:layout_constraintTop_toBottomOf="@+id/ib_tback"
+        app:srcCompat="@drawable/r_left_up_48" />
+
+    <ImageButton
+        android:id="@+id/ib_rright"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#f2f2f2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ib_sit"
+        app:layout_constraintEnd_toStartOf="@+id/ib_tback"
+        app:layout_constraintTop_toBottomOf="@+id/ib_tback"
+        app:srcCompat="@drawable/r_right_up_48" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Tilt"
+        app:layout_constraintBottom_toTopOf="@+id/ib_tfront"
+        app:layout_constraintEnd_toEndOf="@+id/tilt_image"
+        app:layout_constraintStart_toStartOf="@+id/tilt_image"
+        app:layout_constraintTop_toTopOf="@+id/gv_video" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Direction"
+        app:layout_constraintBottom_toTopOf="@+id/ib_dfront"
+        app:layout_constraintEnd_toEndOf="@+id/ib_dright"
+        app:layout_constraintStart_toStartOf="@+id/ib_dleft"
+        app:layout_constraintTop_toTopOf="@+id/gv_video" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Rotation"
+        app:layout_constraintEnd_toEndOf="@+id/ib_rleft"
+        app:layout_constraintStart_toStartOf="@+id/ib_rright"
+        app:layout_constraintTop_toBottomOf="@+id/ib_rleft" />
+
+    <SeekBar
+        android:id="@+id/sb_speedBar"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="30"
+        android:progress="10"
+        android:progressTint="#c5465d"
+        android:thumbTint="#2a2a2a"
+        app:layout_constraintBottom_toBottomOf="@+id/ib_rleft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gv_video" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Speed"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/sb_speedBar"
+        app:layout_constraintStart_toStartOf="@+id/sb_speedBar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Sit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ib_sit"
+        app:layout_constraintStart_toStartOf="@+id/ib_sit" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Stand"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ib_stand"
+        app:layout_constraintStart_toStartOf="@+id/ib_stand" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Neutral"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
